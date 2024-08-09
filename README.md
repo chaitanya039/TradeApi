@@ -107,13 +107,13 @@ To run this project locally:
 
 3. Set up a `.env` file with the following variables:
     ```env
-    MONGODB_URI=mongodb://localhost:27017/crypto-trade-api
-    PORT=3000
+    MONGODB_URI=url
+    PORT=yourport
     ```
 
 4. Start the server:
     ```bash
-    node index.js
+    npm run start
     ```
 
 5. The API will be available at `http://localhost:3000`.
