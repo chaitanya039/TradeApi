@@ -28,7 +28,7 @@ The API is currently hosted at: [https://tradeapi-8e70.onrender.com/](https://tr
 
 ### 1. Upload Trades CSV
 
-**URL:** `/api/trades/upload`
+**URL:** `/api/v1/trades`
 
 **Method:** `POST`
 
@@ -51,12 +51,12 @@ The API is currently hosted at: [https://tradeapi-8e70.onrender.com/](https://tr
 
 **Example:**
 ```bash
-curl -X POST -F 'file=@/path/to/your/file.csv' https://tradeapi-8e70.onrender.com/api/trades/upload
+curl -X POST -F 'file=@/path/to/your/file.csv' https://tradeapi-8e70.onrender.com/api/v1/trades
 ```
 
 ### 2. Get Asset-Wise Balance
 
-**URL:** `/api/balance`
+**URL:** `/api/v1/trades`
 
 **Method:** `POST`
 
@@ -79,7 +79,7 @@ curl -X POST -F 'file=@/path/to/your/file.csv' https://tradeapi-8e70.onrender.co
 
 **Example:**
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"timestamp": "2022-09-28 12:00:00"}' https://tradeapi-8e70.onrender.com/api/balance
+curl -X POST -H "Content-Type: application/json" -d '{"timestamp": "2022-09-28 12:00:00"}' https://tradeapi-8e70.onrender.com/api/v1/trades
 ```
 
 **Example Response:**
