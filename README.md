@@ -1,5 +1,3 @@
-Here's a README file that you can use for the project:
-
 ---
 
 # Cryptocurrency Trade API
