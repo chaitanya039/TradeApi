@@ -1,0 +1,27 @@
+{
+  "name": "trade",
+  "version": "1.0.0",
+  "description": "This is an API which accept csv file, parse data and store it into DB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "trade",
+    "stock",
+    "cryptocurrency"
+  ],
+  "author": "Chaitanya Pansare",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1",
+    "prettier": "^3.3.3"
+  }
+}
